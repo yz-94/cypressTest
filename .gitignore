@@ -1,0 +1,13 @@
+# Ignorar dependencias de Node
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Carpetas de Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
