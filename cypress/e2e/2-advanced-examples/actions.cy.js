@@ -19,6 +19,8 @@ context('Actions', () => {
     // .type() with key modifiers
     cy.get('.action-email').type('{alt}{option}') // these are equivalent
     cy.get('.action-email').type('{ctrl}{control}') // these are equivalent
+
+    
     cy.get('.action-email').type('{meta}{command}{cmd}') // these are equivalent
     cy.get('.action-email').type('{shift}')
 
